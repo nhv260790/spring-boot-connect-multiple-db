@@ -8,12 +8,6 @@ spring:
     username: sa
     password: 
     driverClassName: org.h2.Driver
-#  jpa:
-#    database-platform: org.hibernate.dialect.H2Dialect
-#    properties:
-#      hibernate:
-#        globally_quoted_identifiers: true
-#        ddl-auto: create-drop
   datasource.mysql:
     driverClassName: com.mysql.cj.jdbc.Driver
     jdbcUrl: jdbc:mysql://localhost:3306/mydb
